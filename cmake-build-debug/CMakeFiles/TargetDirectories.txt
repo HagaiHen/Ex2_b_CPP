@@ -1,3 +1,0 @@
-/home/hagai/CLionProjects/Ex2_cpp_new/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hagai/CLionProjects/Ex2_cpp_new/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/hagai/CLionProjects/Ex2_cpp_new/cmake-build-debug/CMakeFiles/Ex2_cpp_new.dir
