@@ -14,14 +14,17 @@ namespace ariel {
     class Notebook {
 		
         private:
-            unordered_map<unsigned int, unsigned int> last_use;
-            unordered_map<unsigned int, unordered_map<unsigned int, unordered_map<unsigned int, space>>> note;
+            unordered_map< int,  int> last_use;
+            unordered_map< int, unordered_map< int, unordered_map< int, space>>> note;
         
         public:
-            void write(unsigned int page, unsigned int row, unsigned int col, Direction d, std::string const &str);
-            std::string read (unsigned int page, unsigned int row, unsigned int col, Direction d, unsigned int len);
-            void erase(unsigned int page, unsigned int row, unsigned int col, Direction d, unsigned int len);
-            void show(unsigned int page);
+            void write( int page,  int row,  int col, Direction d, std::string const &str);
+            std::string read ( int page,  int row,  int col, Direction d,  int len);
+            void erase( int page,  int row,  int col, Direction d,  int len);
+            void show( int page);
+            
+            //destructor
+	    ~Notebook() {}
 
 	};
 
